@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>고성 공룡박물관</title>
+    <script src="javascript/jquery-1.12.3.js"></script>
+    <script src="javascript/script.js"></script>
+     <script src="javascript/jquery-1.8.1.js"></script>
+    <script src="javascript/jquery.collapse.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/commonness.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    
+    
+    
+</head>
+<body>
+    
+       
+    <header id="header">
+        <div class="header_top">
+        <div class="sub_bg">
+            <img src="images/20200910_103008.png" alt="공룡박물관">
+        </div>
+
+        <div class="info">
+           <div class="info_in">
+            <a href="#"><img src="images/off_btn.png"></a> 
+            <span>본인인증</span> 
+            </div>
+            </div>
+        </div>
+        <div class="header_bottom">  
+        
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" ></a>
+         
+        </div>
+        
+        <div id="m_menu">
+		<ul class="menu">
+			<li><a href="#" class="plus">+</a>
+				<ul class="sub">
+					<li><a href="introduce.html">박물관소개</a></li>
+					<li><a href="display.html">전시마당</a></li>
+                    <li><a href="program.html">문화행사</a></li>
+					<li><a href="ChildrenMuseum.html">어린이박물관</a></li>
+					<li><a href="news.html">정보센터</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+        
+        
+        <div class="nav">
+               <ul>
+                <li><a href="introduce.html">박물관소개</a>
+                <ul class="submenu">
+                    <li><a href="introduce.html">인사말</a></li>
+                    <li><a href="introduce.html">연혁</a></li>
+                    <li><a href="introduce.html">업무안내</a></li>
+                    
+                    <li><a href="introduce.html">박물관로고</a></li>
+                    <li><a href="introduce.html">관람안내</a></li>
+                    <li><a href="introduce.html">찾아오시는길</a></li>
+                </ul>
+                </li>
+                <li><a href="cos.html">전시마당</a>
+                <ul class="submenu">
+                    <li><a href="cos.html">관람코스</a></li>
+                    <li><a href="display.html">실내전시</a></li>
+                    <li><a href="display.html">시외전시물 소개</a></li>
+                    <li><a href="display.html">공룡박자국 화석지</a></li>
+                </ul>
+                </li>
+                <li><a href="program.html">문화행사</a>
+                <ul class="submenu">
+                    <li><a href="program.html">프로그램 신청</a></li>
+                </ul>
+                </li>
+                <li><a href="ChildrenMuseum.html">어린이박물관</a>
+                 <ul class="submenu">
+                    <li><a href="ChildrenMuseum.html">공룡박물관에는</a></li>
+                    <li><a href="ChildrenMuseum.html">이것이궁금해요</a></li>
+                </ul>
+                </li>
+                <li><a href="news.html">정보센터</a>
+                <ul class="submenu">
+                    <li><a href="news.html">박물관소식</a></li>
+                    <li><a href="news.html">문의사항</a></li>
+                    <li><a href="news.html">추천사이트</a></li>
+                </ul>
+                </li>
+            </ul>
+            
+        </div> <!--네비닫기-->
+        </div>
+       
+    </header>
+    
+    
+    
+     
+         <!-- 상단으로 이동하기 버튼 -->
+<a href="#" class="btn_gotop">
+  <span class="glyphicon glyphicon-chevron-up">TOP▲
+  </span>
+</a>
+
+
+<style>
+.btn_gotop {
+	display:none;
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	z-index:999;
+	border:1px solid #999;
+	outline:none;
+	background-color:white;
+	color:#333;
+	cursor:pointer;
+	padding:15px 20px;
+	border-radius:100%;
+}
+    .btn_gotop span{color:#999; font-size: 1.3rem}
+</style>
+
+
+<script>
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 300){
+		$('.btn_gotop').show();
+	} else{
+		$('.btn_gotop').hide();
+	}
+});
+$('.btn_gotop').click(function(){
+	$('html, body').animate({scrollTop:0},400);
+	return false;
+});
+</script>
+    
+    
+    
+    
+     <div id="wrap">
+        <div id="sub_top">
+            <p>2억 3000만년 전의 공룡과 함께 태고의 신비를 경험하세요!</p>
+        </div>
+         <div id="all">
+    <div id="l_box">
+      <div class="l_box_in">
+       <h1>정보센터</h1>
+        <ul>
+            <li><a href="#">박물관소식</a></li>
+            <li><a href="#">문의사항</a></li>
+            <li><a href="#">추천사이트</a></li>
+            
+        </ul>
+        </div>
+    </div>
+         <div id="r_box">
+    
+   
+    <section id="submain_img">
+        <img src="images/sub4main_img.jpg" alt="서브메인이미지" class="main4">
+        
+        <div class="mo_submenu">
+             <ul>
+                 <li><a href="#">박물관소식</a></li>
+                 <li><a href="#">문의사항</a></li>
+                 <li><a href="#">추천사이트</a></li>
+                
+             </ul>
+             
+         </div>
+        
+        
+    </section>
+    
+   
+    <section id="search">
+        <h2><img src="images/sub4title.png" alt="타이틀"></h2>
+                
+        <select>
+            <option value="DATE_TITLE">제목</option>
+            <option value="USER_NICK">작성자</option>
+            <option value="DATE_CONTENT">내용</option>
+        </select>
+        <input name="keyword" title="검색어를 입력해주세요" type="text" class="sub4_text">
+        <input name="btn_search" type="submit" value="검색" class="sub4_btn">
+        
+                
+    </section> 
+   
+        <div class="board">
+           <table summary="공지사항을(를) 리스트로 나타냅니다.">
+               
+                <thead class="news">
+                  <tr>
+                      <th class="no" scope="col">번호</th>
+                      <th class="title" scope="col">제목</th>
+                      <th class="date" scope="col">작성일</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                     
+                      <tr>
+                         <td class="no">
+                          <span class="notice">공지</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">고성공룡박물관 임시휴관 (8.23일~9.6일/2주간)</a>
+                         </td>
+                         <td class="date">2020-08-17</td>
+                      </tr>
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span class="notice">공지</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">고성 공룡박물관 7월 휴관일 안내</a>
+                         </td>
+                         <td class="date">2020-06-30</td>
+                      </tr>
+                      
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span>50</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡모양 쿠키 만들기</a>
+                         </td>
+                         <td class="date">2020-06-25</td>
+                      </tr>
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span>49</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">신나는 피자교실</a>
+                         </td>
+                         <td class="date">2020-06-15</td>
+                      </tr>
+                      
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span>48</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">매주 수요일은 문화가 있는 날</a>
+                         </td>
+                         <td class="date">2020-06-15</td>
+                      </tr>
+                      
+                      
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span>47</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">나도 고생물 학자 상상하고! 찾아보고!</a>
+                         </td>
+                         <td class="date">2020-06-13</td>
+                      </tr>
+                      
+                      
+                       
+                      <tr>
+                         <td class="no">
+                          <span>46</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">6월 조석표 예보표</a>
+                         </td>
+                         <td class="date">2020-05-25</td>
+                      </tr>
+                      
+                      
+                        <tr>
+                         <td class="no">
+                          <span>45</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡체험장 프로그램 일부 중단 안내</a>
+                         </td>
+                         <td class="date">2020-05-15</td>
+                      </tr>
+                      
+                      
+                       <tr>
+                         <td class="no">
+                          <span>44</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡박자국 화석 산지 관찰가능 시간 안내입니다.</a>
+                         </td>
+                         <td class="date">2020-05-01</td>
+                      </tr>
+                      
+                      <tr>
+                         <td class="no">
+                          <span>43</span>
+                         </td>
+                         <td class="title">
+                             <a href="#"><긴급공지>공룡박물관 홈페이지 중단안내</a>
+                         </td>
+                         <td class="date">2020-03-12</td>
+                      </tr>
+                      
+                      
+                      <tr>
+                         <td class="no">
+                          <span>42</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡박물관 3월 전시 해설일자 안내</a>
+                         </td>
+                         <td class="date">2020-03-02</td>
+                      </tr>
+                      
+                      
+                      
+                        <tr>
+                         <td class="no">
+                          <span>41</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡박물관 하절기 관람시간 안내입니다.</a>
+                         </td>
+                         <td class="date">2020-02-28</td>
+                      </tr>
+                      
+                      
+                       <tr>
+                         <td class="no">
+                          <span>40</span>
+                         </td>
+                         <td class="title">
+                             <a href="#">공룡박물관 설 연휴 운영 안내</a>
+                         </td>
+                         <td class="date">2020-01-16</td>
+                      </tr>
+                      
+                  </tbody>
+               
+           </table>
+            
+            <div class="boardPage">
+                
+                <div class="btn_group">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">▷</a>
+                </div>
+            </div>
+            
+            
+        </div> 
+         
+          
+    
+           
+    </div><!--r_box닫기-->
+    </div><!--all닫기-->
+    
+    
+    
+    
+    
+    
+    
+    <footer id="footer">
+        <div class="footer_in">
+            <div class="f_logo">
+            <a href="index.html"><img src="images/f_logo.png"alt="하단로고"></a>
+        </div>
+        <div class="f_menu">
+            <ul>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+                <li><a href="#">접근성정책</a></li>
+                <li><a href="#">홈페이지개선</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>주소: (우 52963) 경상남도 고성군 하이면 자란만로 618, 고성공룡박물관 | 전화번호: 055-670-4451 | E-mail:dinomuseum@korea.kr<br>
+            박물관 등록번호: 경상남도 등록 제24호<br>
+            본 웹사이트는 이메일 주소가 무단 수집되는 것을 거부하며, 위반시 [정보통신망법]에 의해 처벌됨을 유념하십시오.<br>
+            <br>
+            Copyright ⓒ 2016 GYEONGNAM GOSEONG. All Rights Reserved.
+            </p>
+        </div>
+            
+            
+        </div>
+        
+    </footer>
+    
+    <div id="modal">
+       <img src="images/off_in.jpg" alt="본인인증">
+        <div class="modal_btn">닫기</div>
+    </div>
+</div><!--wrap-->
+
+</body>
+</html>

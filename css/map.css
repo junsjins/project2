@@ -1,0 +1,78 @@
+#all{width: 1200px; background: ;}
+#all:after{content: ""; display: block; clear:both}
+#l_box{float: left; width: 200px;height: 2350px; background-color:;   }
+.l_box_in{width: 200px; height: 470px; background-color: #fff; text-align:center;margin-top: 5px;
+          z-index:55;position: ;  }
+.l_box_in h1{display: block; background-color: #0662c9; width: 180px; height:90px; line-height: 90px; color:#fff; font-size: 2.5rem}
+.l_box_in li{width: 180px; height: 60px;border-bottom: 1px solid #0662c9; font-size: 1.5rem; font-weight: 500; line-height: 60px;}
+.l_box_in li:hover{background-color: rgba(6,98,201,0.4); font-weight: bold}
+
+#sub_top{width: 100%; height: 218px; background-image: url(../images/subTop1.jpg);background-repeat: no-repeat; background-position: center center;}
+#sub_top p{text-align: center; color:#fff; font-size: 3.5rem; padding-top: 5%; font-family:tvN Enjoystories;}
+
+#r_box{float: left; width: 1000px;height: 3250px; background: ;}
+#sub1main_img{text-align: center;position: relative; width:1000px; height: 600px; }
+
+.main2{width: 100%; margin-top: -4.2%}
+
+.line_box:after{content: ""; display: block; clear:both}
+.line_box{width: 1000px; margin-top: 60px;}
+.line_box .green{float: left;width: 23% }
+.line_box .yell{float: right; width: 77%}
+
+.subtext_box:after{content: ""; display: block; clear:both}
+.subtext_box{width: 1000px;margin-top:0.5%;}
+.subtext_box .left1_box{float: left; width:40.8% }
+.subtext_box .right1_box{float: right; width: 59.12%; }
+
+
+
+#map{margin-top: 10%; }
+
+
+
+
+/*태블릿사이즈*/
+
+@media (max-width:1199px) {
+    
+    #sub_top p{font-size: 3.1rem; padding-top:10% }
+    #l_box{display: none}
+    #r_box{width: 100%; height: auto}
+    #all{width: 100%}
+    .sub1main_img{width: 100%; height: auto; padding-top: calc(10/1122*100%);text-align: center}
+    .main2{width: 80%;}
+    .line_box{width: 80%}
+    .subtext_box{width: 80%}
+    .subtext_box .left1_box{width: 40.8%; height: auto}
+    .subtext_box .right1_box{width: 59.2%}
+    
+
+}
+
+
+
+
+
+
+/*모바일사이즈*/
+
+@media (max-width:768px) {
+    
+    .logo img{width: 200px; margin-top: 10px;}
+    
+    #sub_top p{font-size: 1.5rem; padding-top: 6%}
+    #sub_top{height: 100px;; width: 100%}
+ 
+    
+    
+    
+}
+
+
+
+
+
+
+
+
