@@ -105,6 +105,7 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
     .main_title{ width: 400px; height:; margin: 0 auto; padding: 4% 0; }
     
     
+    
     .slide{width: 100%;}
   
     .slideList{ width: 100%;height: auto;}
@@ -152,9 +153,9 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
 /*모바일사이즈*/
 
 @media (max-width:768px) {
-    .logo img{width: 200px; margin-top: 10px;}
     
-    .main_title{left: 5%; width: 400px; height:; padding:10% 0 ; margin: 0 auto; top: 30%}
+    .logo img{width: 200px; margin-top: 10px;}
+    .main_title{left: 9%; width: 350px; height:; padding:10% 0 ; margin: 0 auto; top: 30%}
     .main_title span{font-size:1.5rem }
     .main_title .slide_title{font-size: 3rem}
     .main_title .slide_subTitle{font-size: 1rem}
