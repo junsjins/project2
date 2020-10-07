@@ -42,8 +42,8 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
 .new_in{width: 1200px; }
 .new_in ul{width: 100%; height: 80px;}
 .new li{float: left;}
-.new h2{font-size: 2.8rem;margin-top: 10px; margin-left: 10px;}
-.new_in img{ width:90%;}
+.new h1{font-size:2.3rem ; margin-top:3px; margin-left:-15px ; }
+.new_in img{ width:65%;}
 
 
 .contents{width: 100%; height: 920px; }
@@ -163,8 +163,8 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
     
     .cos h1{font-size: 2rem}
     .cos p{font-size: 1.2rem}
-    .new h2{font-size: 2rem; margin-left:-8px; margin-top: 5px;}
-    .new_in img{width: 70%;}
+    .new h1{font-size: 1.8rem; margin-left:-30px; margin-top: 2px;}
+    .new_in img{width: 50%;}
     .btn li{height: 55px; line-height: 55px;}
     .btn li a{font-size: 1.5rem}
     
