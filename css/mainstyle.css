@@ -48,7 +48,7 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
 
 .contents{width: 100%; height: 920px; }
 .contents ul{width: 100%;}
-.contents li{float: left; padding-right: 4.37%;padding-top: %}
+.contents li{float: left; padding-right: 4.37%;padding-top: 3%}
 .contents li:nth-child(3){padding-right: 0}
 .contents li:last-child{padding-right: 0}
 
@@ -113,8 +113,8 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
     
     .cos{width: 100%;  height: auto}
     .cos ul{margin-top:30px}
-    .cos li{width: 50%; height: auto; margin-right:0; margin-top: 20px;}
-    .cos img{width: 55%}
+    .cos li{width: 50%; height: auto; margin-right:0; margin-top: 50px;}
+    .cos img{width: 45%}
     .cos li:hover:nth-child(1) img, .cos li:hover:nth-child(2) img, .cos li:hover:nth-child(3) img, .cos li:hover:nth-child(4) img{transform : none;}
     
     .new{width: 100%}
@@ -163,6 +163,7 @@ width: 400px; height: ; background: rgba(0,0,0,0.4); padding:3% 0 ; border-radiu
     
     .cos h1{font-size: 2rem}
     .cos p{font-size: 1.2rem}
+    .cos img{width: 65%}
     .new h1{font-size: 1.8rem; margin-left:-30px; margin-top: 2px;}
     .new_in img{width: 50%;}
     .btn li{height: 55px; line-height: 55px;}
