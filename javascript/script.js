@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
     $('.slideList').animate({top:slidePosition},400);
         
         
-    },3000);
+    },3000);//슬라이드
     
  
     
@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
         $("ul",this).slideToggle("fast");
     });
 		
-  
+  //모바일 메뉴바
     
     
     
@@ -32,7 +32,7 @@ jQuery(document).ready(function(){
     $(".nav > ul > li").mouseout(function(){
         $(".nav > ul > li > ul, .sub_bg").stop().slideUp();
     });
-    
+    //네이게이션
     
     
     
@@ -42,7 +42,7 @@ jQuery(document).ready(function(){
      $(".modal_btn").click(function(){
         $("#modal").css("display","none");
     });
-    
+    //본인인증 팝업메뉴
     
     
     
@@ -63,7 +63,7 @@ jQuery(document).ready(function(){
 			dt.css('cursor','default');
 		});
 	});
-});
+}); //아코디언
     
     
      var el = $("#events-example"),

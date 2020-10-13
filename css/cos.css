@@ -6,7 +6,7 @@
 .l_box_in{width: 200px; height: 350px; background-color: #fff; text-align:center;margin-top: 5px;  z-index:55;position: ;  }
 .l_box_in h1{display: block; background-color: #0662c9; width: 180px; height:90px; line-height: 90px; color:#fff; font-size: 2.5rem}
 .l_box_in li{width: 180px; height: 60px;border-bottom: 1px solid #0662c9; font-size: 1.5rem; font-weight: 500; line-height: 60px;}
-.l_box_in li:hover{ background-color: rgba(0,0,0,0.2); font-weight: bold; cursor: pointer}
+.l_box_in li:hover{  background: rgba(27, 66, 154, 0.4); font-weight: bold; cursor: pointer}
 .l_box_in li:hover a{color:#fff}
 
 
