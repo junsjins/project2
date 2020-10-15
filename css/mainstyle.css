@@ -452,11 +452,29 @@ html {
         text-align: center;
         height: auto;
     }
+    .contents li{width: 33%; float:none; display: inline-block;
+    padding-right: 0%}
+    
+    .contents img {
+        width:80% ;
+        margin-top: 20px;
+       }
+    
+    .contents div {
+        display: none
+    }
+    
+    /*
+    .contents {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
 
     .contents li {
-        width: 33.33%;
+        width: 33.3%;
         padding-right: 0;
-        margin-top: 0
+        margin-top: 0;
     }
 
     .contents img {
@@ -467,7 +485,7 @@ html {
     .contents div {
         display: none
     }
-
+*/
     .banner {
         height: auto;
     }
