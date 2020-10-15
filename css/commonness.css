@@ -125,6 +125,7 @@ html {
     float: left;
     width: 17%;
     position: relative;
+    
 
 }
 
@@ -164,8 +165,9 @@ html {
 }
 
 .sub_bg img {
-    margin-left: 16%;
-    margin-top: 23px
+    position: absolute;
+    top: 25px;
+    left: 50px
 }
 
 .submenu {
@@ -173,7 +175,7 @@ html {
     width: 100%;
     z-index: 99;
     position: absolute;
-    top: 53x;
+    top: 53px;
     left: ;
     margin-left: 0px;
 }
