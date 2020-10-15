@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+
+
 * {
     margin: 0 auto;
     padding: 0
@@ -164,10 +168,15 @@ html {
     z-index: 90
 }
 
+.sub_bg > div {
+    width: 1250px;
+    margin: 0 auto
+}
+
 .sub_bg img {
+    margin-top: 23px;
     position: absolute;
-    top: 25px;
-    left: 50px
+    top: 0;
 }
 
 .submenu {

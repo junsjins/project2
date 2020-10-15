@@ -1,56 +1,258 @@
-#all{width: 1200px; background: ;}
-#all:after{content: ""; display: block; clear:both}
-#l_box{float: left; width: 200px;height: 2300px; background-color:;   }
-.l_box_in{width: 200px; height: 470px; background-color: #fff; text-align:center;margin-top: 5px;
-          z-index:55;position: ;  }
-.l_box_in h1{display: block; background-color: #0662c9; width: 180px; height:90px; line-height: 90px; color:#fff; font-size: 2.5rem}
-.l_box_in li{width: 180px; height: 60px;border-bottom: 1px solid #0662c9; font-size: 1.5rem; font-weight: 500; line-height: 60px;}
-.l_box_in li:hover{  background: rgba(27, 66, 154, 0.4);font-weight: bold; cursor: pointer}
-.l_box_in li:hover a{color:#fff}
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nanum+Brush+Script&display=swap');
 
-#sub_top{width: 100%; height: 218px; background-image: url(../images/subTop1.jpg);background-repeat: no-repeat; background-position: center center;}
-#sub_top p{text-align: center; color:#fff; font-size: 3.5rem; padding-top: 5%; font-family:tvN Enjoystories;}
+#all {
+    width: 1200px;
+    background: ;
+}
 
-#r_box{float: left; width: 1000px;height: 1000px; background: ;}
-#sub2main_img{text-align: center; position: relative; width:1000px; height: 600px; }
-.main3{width: 100%; margin-top: -4.2%}
-.line_box:after{content: ""; display: block; clear:both}
-.line_box{width: 1000px; margin-top: 60px;}
-.line_box .green{float: left;width: 23% }
-.line_box .yell{float: right; width: 77%}
+#all:after {
+    content: "";
+    display: block;
+    clear: both
+}
 
-.subtext_box:after{content: ""; display: block; clear:both}
-.subtext_box{width: 1000px;margin-top:0.5%; margin-bottom: 8%}
-.subtext_box .left2_box{float: left; width:40.8% }
-.subtext_box .right2_box{float: right; width: 59.12%; }
+#l_box {
+    float: left;
+    width: 200px;
+    height: 2300px;
+    background-color: ;
+}
+
+.l_box_in {
+    width: 200px;
+    height: 470px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 55;
+    position: ;
+}
+
+.l_box_in h1 {
+    display: block;
+    background-color: #0662c9;
+    width: 180px;
+    height: 90px;
+    line-height: 90px;
+    color: #fff;
+    font-size: 2.5rem
+}
+
+.l_box_in li {
+    width: 180px;
+    height: 60px;
+    border-bottom: 1px solid #0662c9;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.l_box_in li:hover {
+    background: rgba(27, 66, 154, 0.4);
+    font-weight: bold;
+    cursor: pointer
+}
+
+.l_box_in li:hover a {
+    color: #fff
+}
+
+#sub_top {
+    width: 100%;
+    height: 218px;
+    background-image: url(../images/subTop1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sub_top p {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    padding-top: 5%;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+#r_box {
+    float: left;
+    width: 1000px;
+    height: 1000px;
+    background: ;
+}
+
+#sub2main_img {
+    text-align: center;
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
+
+.main3 {
+    width: 100%;
+    margin-top: -4.2%
+}
+
+.line_box:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.line_box {
+    width: 1000px;
+    margin-top: 60px;
+}
+
+.line_box .green {
+    float: left;
+    width: 23%
+}
+
+.line_box .yell {
+    float: right;
+    width: 77%
+}
+
+.subtext_box:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.subtext_box {
+    width: 1000px;
+    margin-top: 0.5%;
+    margin-bottom: 8%
+}
+
+.subtext_box .left2_box {
+    float: left;
+    width: 40.8%
+}
+
+.subtext_box .right2_box {
+    float: right;
+    width: 59.12%;
+}
 
 
-#program_list{width: 1000px;}
-#program_list ul:after{content: ""; display: block; clear: both}
-#program_list ul{margin-bottom: 8%}
-.titel2{width: 20%;float: left}
-.line2{width: 80%; float: left}
+#program_list {
+    width: 1000px;
+}
 
-.program1{width: 100%; height: 400px; }
-.program2{width: 100%; height: 400px;}
-.program3{width: 100%; height: 400px;}
+#program_list ul:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+#program_list ul {
+    margin-bottom: 8%
+}
+
+.titel2 {
+    width: 20%;
+    float: left
+}
+
+.line2 {
+    width: 80%;
+    float: left
+}
+
+.program1 {
+    width: 100%;
+    height: 400px;
+}
+
+.program2 {
+    width: 100%;
+    height: 400px;
+}
+
+.program3 {
+    width: 100%;
+    height: 400px;
+}
 
 
 
-.program1:after{content: ""; display: block; clear: both}
-.sub2left_box{float: left;}
-.sub2left_box p{clear: both; width: 100%; height: 60px; font-size: 3.5rem; text-align: center; border-bottom: 1px solid #aaa; line-height: 55px; color:#333; font-family:Yanolja Yache }
+.program1:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.sub2left_box {
+    float: left;
+}
+
+.sub2left_box p {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    font-size: 3.5rem;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    line-height: 55px;
+    color: #333;
+    font-family: 'Gamja Flower', cursive;
+}
 
 
-.sub2right_box{float: right; width: 60%}
-.sub2right_box ul{margin-top: 2%}
-.sub2right_box li{width: 90%; line-height: 40px; font-size: 1.6rem;}
-.sub2right_box li img{width: 5%; margin-right: 1%; }
-.sub2right_box li h6{display:inline-block; width: 200px;height: 50px; line-height: 50px; background: #60bb46; margin-top: 1.5%; font-size: 1.5rem; text-align: center; color:#fff}
-.sub2right_box li h6 a{color:#fff}
-.sub2right_box li h6:hover{background: rgba(0,0,0,0.5);}
-.sub2right_box li span{display: inline-block; width: 200px;height: 50px; text-align: center; line-height: 50px; background: #1c4597; margin-top:1.5% ;  }
-.sub2right_box li span a{color:#fff}
+.sub2right_box {
+    float: right;
+    width: 60%
+}
+
+.sub2right_box ul {
+    margin-top: 2%
+}
+
+.sub2right_box li {
+    width: 90%;
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+
+.sub2right_box li img {
+    width: 5%;
+    margin-right: 1%;
+}
+
+.sub2right_box li h6 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #60bb46;
+    margin-top: 1.5%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff
+}
+
+.sub2right_box li h6 a {
+    color: #fff
+}
+
+.sub2right_box li h6:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.sub2right_box li span {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #1c4597;
+    margin-top: 1.5%;
+}
+
+.sub2right_box li span a {
+    color: #fff
+}
 
 
 
@@ -59,63 +261,157 @@
 
 
 @media (max-width:1199px) {
-    
-    #sub_top p{font-size: 3.1rem; padding-top:10% }
-    
-    #l_box{display: none}
-    #r_box{width: 100%; height: auto}
-    #all{width: 100%}
-    
-    .sub2main_img{text-align: center}
-    .main3{width: 80%; height: auto; padding-top: calc(10/1122*100%);text-align: center; }
-    
-    #content{width: 100%; height: auto;margin-top: 8%; }
-    .line_box{width: 80%}
-    
-    .subtext_box{width: 80%; margin-bottom: 5%}
-    .subtext_box .left2_box {width: 40.9%}
-    .subtext_box .right2_box {width: 59.1%}
-    
-    .titel2 img{width: 75%; margin-left: 3%}
-    .line2{width: 80%}
-    .line2 img{width: 100%}
-    
-    #program_list{width: 100%; }
-    #program_list ul{width: 100%}
-    
-    .program1{height: auto; text-align: center}
-    
-    
-    
-    
-    
-    .sub2left_box{float: none}
-    .sub2right_box{float: none; width: 70%}
-    .sub2left_box p{border: none
+
+    #sub_top p {
+        font-size: 3.1rem;
+        padding-top: 10%
     }
-    .sub2right_box li span{width: 160px;}
-    .sub2right_box li h6 {width: 160px;}
-    
-    .program2{height: auto; text-align: center; margin-top: 8%}
-    .program3{height: auto; text-align: center;margin-top: 8%}
-    
-    
-    
+
+    #l_box {
+        display: none
+    }
+
+    #r_box {
+        width: 100%;
+        height: auto
+    }
+
+    #all {
+        width: 100%
+    }
+
+    .sub2main_img {
+        text-align: center
+    }
+
+    .main3 {
+        width: 80%;
+        height: auto;
+        padding-top: calc(10/1122*100%);
+        text-align: center;
+    }
+
+    #content {
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+    }
+
+    .line_box {
+        width: 80%
+    }
+
+    .subtext_box {
+        width: 80%;
+        margin-bottom: 5%
+    }
+
+    .subtext_box .left2_box {
+        width: 40.9%
+    }
+
+    .subtext_box .right2_box {
+        width: 59.1%
+    }
+
+    .titel2 img {
+        width: 75%;
+        margin-left: 3%
+    }
+
+    .line2 {
+        width: 80%
+    }
+
+    .line2 img {
+        width: 100%
+    }
+
+    #program_list {
+        width: 100%;
+    }
+
+    #program_list ul {
+        width: 100%
+    }
+
+    .program1 {
+        height: auto;
+        text-align: center
+    }
+
+
+
+
+
+    .sub2left_box {
+        float: none
+    }
+
+    .sub2right_box {
+        float: none;
+        width: 70%
+    }
+
+    .sub2left_box p {
+        border: none
+    }
+
+    .sub2right_box li span {
+        width: 160px;
+    }
+
+    .sub2right_box li h6 {
+        width: 160px;
+    }
+
+    .program2 {
+        height: auto;
+        text-align: center;
+        margin-top: 8%
+    }
+
+    .program3 {
+        height: auto;
+        text-align: center;
+        margin-top: 8%
+    }
+
+
+
 }
 
 
 
 
 @media (max-width:768px) {
-    
-    .logo img{width: 200px; margin-top: 10px;}
-    
-    #sub_top p{font-size: 1.5rem; padding-top: 6%}
-    #sub_top{height: 100px;; width: 100%}
-    
-    .sub2right_box li{font-size: 1.2rem}
-    .sub2right_box li h6 a{font-size: 1.2rem}
-    .sub2left_box p{font-size: 2.5rem}
-    
-}
 
+    .logo img {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    #sub_top p {
+        font-size: 1.5rem;
+        padding-top: 6%
+    }
+
+    #sub_top {
+        height: 100px;
+        ;
+        width: 100%
+    }
+
+    .sub2right_box li {
+        font-size: 1.2rem
+    }
+
+    .sub2right_box li h6 a {
+        font-size: 1.2rem
+    }
+
+    .sub2left_box p {
+        font-size: 2.5rem
+    }
+
+}

@@ -1,45 +1,145 @@
-.board table tbody td.checkbox, .board table tbody td.date, .board table tbody td.hit, .board table tbody td.no, .board table tbody th.checkbox, .board table tbody th.date, .board table tbody th.hit, .board table tbody th.no {
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+
+.board table tbody td.checkbox,
+.board table tbody td.date,
+.board table tbody td.hit,
+.board table tbody td.no,
+.board table tbody th.checkbox,
+.board table tbody th.date,
+.board table tbody th.hit,
+.board table tbody th.no {
     text-align: center;
     font-size: 15.3px;
 }
 
 
-#all{width: 1200px; background: ;}
-#all:after{content: ""; display: block; clear:both}
-#l_box{float: left; width: 200px;height: 1300px; background-color:;   }
-.l_box_in{width: 200px; height: 470px; background-color: #fff; text-align:center;margin-top: 5px;
-          z-index:55;position: ;  }
-.l_box_in h1{display: block; background-color: #0662c9; width: 180px; height:90px; line-height: 90px; color:#fff; font-size: 2.5rem}
-.l_box_in li{width: 180px; height: 60px;border-bottom: 1px solid #0662c9; font-size: 1.5rem; font-weight: 500; line-height: 60px;}
-.l_box_in li:hover{  background: rgba(27, 66, 154, 0.4); font-weight: bold; cursor: pointer}
-.l_box_in li:hover a{color:#fff}
+#all {
+    width: 1200px;
+    background: ;
+}
 
-#sub_top{width: 100%; height: 218px; background-image: url(../images/subTop1.jpg);background-repeat: no-repeat; background-position: center center;}
-#sub_top p{text-align: center; color:#fff; font-size: 3.5rem; padding-top: 5%; font-family:tvN Enjoystories;}
+#all:after {
+    content: "";
+    display: block;
+    clear: both
+}
 
-#r_box{float: left; width: 1000px; height: 1300px; background: ;}
+#l_box {
+    float: left;
+    width: 200px;
+    height: 1300px;
+    background-color: ;
+}
+
+.l_box_in {
+    width: 200px;
+    height: 470px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 55;
+    position: ;
+}
+
+.l_box_in h1 {
+    display: block;
+    background-color: #0662c9;
+    width: 180px;
+    height: 90px;
+    line-height: 90px;
+    color: #fff;
+    font-size: 2.5rem
+}
+
+.l_box_in li {
+    width: 180px;
+    height: 60px;
+    border-bottom: 1px solid #0662c9;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.l_box_in li:hover {
+    background: rgba(27, 66, 154, 0.4);
+    font-weight: bold;
+    cursor: pointer
+}
+
+.l_box_in li:hover a {
+    color: #fff
+}
+
+#sub_top {
+    width: 100%;
+    height: 218px;
+    background-image: url(../images/subTop1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sub_top p {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    padding-top: 5%;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+#r_box {
+    float: left;
+    width: 1000px;
+    height: 1300px;
+    background: ;
+}
 
 
-#submain_img{text-align: center;position: relative; width:1000px; height: 300px; }
-.main4{width: 100%; margin-top: -4.2%}
+#submain_img {
+    text-align: center;
+    position: relative;
+    width: 1000px;
+    height: 300px;
+}
 
-#search{width: 100%}
-#search h2{font-size:3rem; margin-bottom: 3%; color:#333}
-#search select{height: 29px;
+.main4 {
+    width: 100%;
+    margin-top: -4.2%
+}
+
+#search {
+    width: 100%
+}
+
+#search h2 {
+    font-size: 3rem;
+    margin-bottom: 3%;
+    color: #333
+}
+
+#search select {
+    height: 29px;
     padding: 2px;
     margin: 5px 0;
-    border: 1px solid #d7d7d7;}
-.sub4_text{ height: 27px;
+    border: 1px solid #d7d7d7;
+}
+
+.sub4_text {
+    height: 27px;
     width: 16em;
     border: 1px solid #d7d7d7;
-    padding: 0 3px;}
-.sub4_btn{height: 29px;
+    padding: 0 3px;
+}
+
+.sub4_btn {
+    height: 29px;
     display: inline-block;
     background: #585858;
     border: none;
     color: #fff;
     padding: 0 10px;
-    cursor: pointer}
+    cursor: pointer
+}
 
 .board table thead th {
     background-color: #f8f9fc;
@@ -47,9 +147,12 @@
     font-size: 17px;
     font-weight: 600;
     color: #1b3a54;
-    }
+}
 
-.board table thead th:nth-child(2){width: 82%; text-align: left}
+.board table thead th:nth-child(2) {
+    width: 82%;
+    text-align: left
+}
 
 .board {
     margin: 20px 0;
@@ -59,27 +162,31 @@
     width: 100%;
     margin-bottom: 20px;
     border-top: 2px solid #1f4b70;
-    
+
 }
 
 
 
 
-.board table tbody td.title{
+.board table tbody td.title {
     text-align: left;
     font-size: 17px;
 }
 
-.board table tbody td.title:hover{font-weight: bold}
+.board table tbody td.title:hover {
+    font-weight: bold
+}
 
-.board table tbody td, .board table tbody th {
+.board table tbody td,
+.board table tbody th {
     padding: 11px 10px;
     font-size: 17px;
     vertical-align: middle;
-     border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
 }
 
-.board table tbody td span.notice, .board table tbody th span.notice {
+.board table tbody td span.notice,
+.board table tbody th span.notice {
     background-color: #018ac1;
     display: inline-block;
     border-radius: 13px;
@@ -88,52 +195,115 @@
     width: 45px;
     color: #fff;
     font-weight: 700;
-    text-align: center}
+    text-align: center
+}
 
 
-.boardPage{text-align: center}
-.btn_group a{ display: inline-block; padding: 1% 1.5%; border:0.25px solid #aaa}
-.btn_group a:hover{background: rgba(0,0,0,0.5); color:#fff}
+.boardPage {
+    text-align: center
+}
+
+.btn_group a {
+    display: inline-block;
+    padding: 1% 1.5%;
+    border: 0.25px solid #aaa
+}
+
+.btn_group a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff
+}
 
 
 
 
 @media (max-width:1199px) {
 
-    #sub_top p{font-size: 3.1rem; padding-top:10% }
-    
-    #l_box{display: none}
-    #r_box{float: none; width: 95%; height: auto; }
-    #all{width: 100%; text-align: center}
-    #submain_img{width: 80%; height: auto; padding-top: calc(10/1122*100%);text-align: center;}
-    
-    .board table thead th:nth-child(1){display: none}
-    .board table tbody td.no{display: none}
-    
-    #search h2{margin-top: 5%; text-align: left; margin-left: 2%}
-    
-    
-    
-    
-    
+    #sub_top p {
+        font-size: 3.1rem;
+        padding-top: 10%
+    }
+
+    #l_box {
+        display: none
+    }
+
+    #r_box {
+        float: none;
+        width: 95%;
+        height: auto;
+    }
+
+    #all {
+        width: 100%;
+        text-align: center
+    }
+
+    #submain_img {
+        width: 80%;
+        height: auto;
+        padding-top: calc(10/1122*100%);
+        text-align: center;
+    }
+
+    .board table thead th:nth-child(1) {
+        display: none
+    }
+
+    .board table tbody td.no {
+        display: none
+    }
+
+    #search h2 {
+        margin-top: 5%;
+        text-align: left;
+        margin-left: 2%
+    }
+
+
+
+
+
 }
 
 
 
 @media (max-width:768px) {
-    
-    .logo img{width: 200px; margin-top: 10px;}
-    
-    .board table tbody td.title a{font-size: 1.2rem}
-    .board table tbody td.date{font-size: 1.2rem}
-     #sub_top p{font-size: 1.5rem; padding-top: 6%}
-    #sub_top{height: 100px;; width: 100%}
-    .board table thead th:nth-child(3){display: none}
-    .board table tbody td.date{display: none} 
-   
-    
-    
-    
-    
-}
 
+    .logo img {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .board table tbody td.title a {
+        font-size: 1.2rem
+    }
+
+    .board table tbody td.date {
+        font-size: 1.2rem
+    }
+
+    #sub_top p {
+        font-size: 1.5rem;
+        padding-top: 6%
+    }
+
+    #sub_top {
+        height: 100px;
+        ;
+        width: 100%
+    }
+
+    .board table thead th:nth-child(3) {
+        display: none
+    }
+
+    .board table tbody td.date {
+        display: none
+    }
+
+
+
+
+
+}
