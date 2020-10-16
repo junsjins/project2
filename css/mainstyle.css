@@ -18,6 +18,7 @@ a {
 html {
     font-size: 10px;
 }
+body{overflow-x: hidden}
 
 #wrap {
     width: 100%;
