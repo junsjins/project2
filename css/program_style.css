@@ -262,10 +262,22 @@
 
 @media (max-width:1199px) {
 
-    #sub_top p {
-        font-size: 3.1rem;
-        padding-top: 10%
+    #sub_top {
+        height: 0;
+        padding-top: calc(200/1122*100%);
+        position: relative;
     }
+
+    #sub_top p {
+        font-size: 3rem;
+        padding-top: 0;
+        position: absolute;
+        top: 50px;
+        left: 5%;
+        right: 5%;
+        margin: 0 auto
+    }
+
 
     #l_box {
         display: none
@@ -281,8 +293,11 @@
     }
 
     .sub2main_img {
-        text-align: center
+        text-align: center;
+        z-index: 999;
+        position: relative
     }
+
 
     .main3 {
         width: 80%;
@@ -391,16 +406,24 @@
         margin-top: 10px;
     }
 
-    #sub_top p {
-        font-size: 1.5rem;
-        padding-top: 6%
+    #sub_top {
+        width: 100%;
+        height: 0;
+        padding-top: calc(200/1122*100%);
+        position: relative;
     }
 
-    #sub_top {
-        height: 100px;
-        ;
-        width: 100%
+    #sub_top p {
+        font-size: 1.5rem;
+        padding-top: 0;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        right: 5%;
+        margin: 0 auto
     }
+
+
 
     .sub2right_box li {
         font-size: 1.2rem
