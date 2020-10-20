@@ -24,7 +24,7 @@ html {
 #wrap {
     width: 100%;
     margin: 0 auto;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .slide {
@@ -458,12 +458,9 @@ html {
     }
 
     .new_in {
-        width: 100%
+        width: 90%
     }
 
-    .new_in ul {
-        margin-left: 2%
-    }
 
 
     .contents {
@@ -628,7 +625,7 @@ html {
 
     .new h1 {
         font-size: 1.8rem;
-        margin-left: -30px;
+        
         margin-top: 2px;
     }
 
@@ -636,9 +633,7 @@ html {
         width: 50%;
     }
 
-    .contents {
-        margin-left: 25px;
-    }
+    
 
     .contents li {
         width: 45%
