@@ -330,7 +330,7 @@
     }
 
     .gallery ul {
-        ;
+        
         width: 90%;
     }
 
@@ -345,7 +345,7 @@
     }
 
     .gallery li img {
-        width: 80%;
+        width: 90%;
         display: block
     }
 
