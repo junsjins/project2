@@ -619,8 +619,12 @@
         font-size: 1rem;
     }
 
+    .img1, .img2, .img3, .img4{
+        width: 75%;
+    }
 
-
-
+    .img1 img, .img3 img{
+        width: 100%
+    }
 
 }
